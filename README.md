@@ -10,3 +10,5 @@ Currently, CSV is one of the most popular data files, as it is easily shareable 
 
 This program is available Free for Use under the MIT license, meaning it can be used, copied or changed for personal or commercial use. 
 I only ask that my name is mentioned in the credit.
+
+![](/images/CSV to Parquet.JPG)
