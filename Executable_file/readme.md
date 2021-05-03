@@ -1,6 +1,8 @@
 This Free converter (for Windows) helps you to convert the CSV files to Parquet and save
 a lot of space in your disk.
 
+[Download the windows *.exe* file from this link](https://drive.google.com/file/d/1kjM8mXGe7G5Q9EJPIlgyhlZWT2u0VSwD/view?usp=sharing)
+
 This program is Free for any use, copy, distribution or modification
  and licensed under MIT Licence.
 
