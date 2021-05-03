@@ -14,7 +14,7 @@ Please credit **Gustavo R Santos** as the creator.
 2. Click the Browse Button
 3. Navigate to the folder where the file(s) to be converted is stored
 4. Select the file to be converted
- - 4.1. If you are converting a batch (multiple files), you should still choose only one file.
+4.1. If you are converting a batch (multiple files), you should still choose only one file.
 5. To convert CSV to Parquet, select a CSV file and click Convert CSV to Parquet button
 6. To convert Parquet to CSV, select a parquet file and click Convert Parquet to CSV button
 7. To close the program, click the Quit button
