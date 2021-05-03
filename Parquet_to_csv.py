@@ -34,9 +34,9 @@ def radio():
 def csv_to_parquet():
     if radio_selected == 1:
         # Load file to Pandas dataframe
-        df = pd.read_csv(path + filename)
+        df = pd.read_csv(path + filename, low_memory=False)
         # Transform to Parquet File
-        df.to_parquet(path + filename[:-3]+ "parquet", engine='pyarrow')
+        df.to_parquet(path + filename[:-3]+ "parquet", engine='pyarrow', compression='gzip')
         lbl_c["text"] = 'File successfully converted'
     else:
         # Loop over files and convert them all
@@ -47,7 +47,7 @@ def csv_to_parquet():
         for f in list_files:
             df = pd.read_csv(path + f)
             # Transform to Parquet File
-            df.to_parquet(path + f[:-3]+ "parquet", engine='pyarrow')
+            df.to_parquet(path + f[:-3]+ "parquet", engine='pyarrow', compression='gzip')
             lbl_c["text"] = str(c) +' files successfully converted'
             c += 1
 
